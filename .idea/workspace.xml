@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5def242c-eb92-4be4-b196-6f70398bba2a" name="Changes" comment="create CssLocators">
+    <list default="true" id="5def242c-eb92-4be4-b196-6f70398bba2a" name="Changes" comment="added webelement span">
+      <change afterPath="$PROJECT_DIR$/src/test/java/locators/XpathLocators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/locators/CssLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/locators/CssLocators.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +20,21 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -27,9 +45,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2dELhS6FAyhgDS3Xmmvh4cFOYWW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -42,10 +60,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/QA_Auto_Projects/QA_24/QA_24_Trello"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.CssLocators.buttons">
+  <component name="RunManager" selected="Gradle.XpathLocators.firstXpath">
     <configuration name="CssLocators" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -118,8 +137,33 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="XpathLocators.firstXpath" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;locators.XpathLocators.firstXpath&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.XpathLocators.firstXpath" />
         <item itemvalue="Gradle.CssLocators.buttons" />
         <item itemvalue="Gradle.CssLocators" />
         <item itemvalue="Gradle.CssLocators.start" />
@@ -143,11 +187,20 @@
       <option name="project" value="LOCAL" />
       <updated>1709574427863</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added webelement span">
+      <option name="closed" value="true" />
+      <created>1709575099836</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709575099836</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create CssLocators" />
-    <option name="LAST_COMMIT_MESSAGE" value="create CssLocators" />
+    <MESSAGE value="added webelement span" />
+    <option name="LAST_COMMIT_MESSAGE" value="added webelement span" />
   </component>
 </project>
