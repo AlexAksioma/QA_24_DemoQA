@@ -26,7 +26,7 @@ public class CssLocators {
         System.out.println("--> "+elementCurrAdd.getTagName());
 
 
-        driver.quit();
+        //driver.quit();
     }
 
     @Test
