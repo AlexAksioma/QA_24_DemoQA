@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5def242c-eb92-4be4-b196-6f70398bba2a" name="Changes" comment="create appmanager">
+    <list default="true" id="5def242c-eb92-4be4-b196-6f70398bba2a" name="Changes" comment="addded metod fillstudentform, dto class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/manager/AppManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/AppManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/locators/CssLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/locators/CssLocators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/StudentFormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/StudentFormTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
     </list>
@@ -41,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -232,13 +230,22 @@
       <option name="project" value="LOCAL" />
       <updated>1710265787948</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="addded metod fillstudentform, dto class">
+      <option name="closed" value="true" />
+      <created>1711101751566</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711101751566</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create CssLocators" />
     <MESSAGE value="added webelement span" />
     <MESSAGE value="create appmanager" />
-    <option name="LAST_COMMIT_MESSAGE" value="create appmanager" />
+    <MESSAGE value="addded metod fillstudentform, dto class" />
+    <option name="LAST_COMMIT_MESSAGE" value="addded metod fillstudentform, dto class" />
   </component>
 </project>
