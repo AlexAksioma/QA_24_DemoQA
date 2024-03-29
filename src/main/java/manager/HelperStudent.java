@@ -19,11 +19,13 @@ public interface HelperStudent extends HelperBase {
     By checkBoxMusic = By.xpath("//label[@for='hobbies-checkbox-3']");
     By textAreaCurrentAddress = By.id("currentAddress");
     By fieldState = By.id("react-select-3-input");
-    By fieldCity = By.id("react-select-4-input");
+    By fieldCity = By.id("react-select-4-input");  //react-select-4-input
 
     By btnForms = By.xpath("//div[@class='category-cards']/div[2]");
     By btnPracticeForm = By.xpath("//span[text()='Practice Form']");
-
+    By btnSubmit = By.id("submit");
+    By titleSubmitForm = By.id("example-modal-sizes-title-lg");
+    By btnClose = By.id("closeLargeModal");
 
     default void selectPracticeForm() {
         clickBase(btnForms);
@@ -42,10 +44,20 @@ public interface HelperStudent extends HelperBase {
         selectHobby(student.getHobbies());
         typeBase(textAreaCurrentAddress, student.getAddress());
         typeState(student.getState());
+        typeCity(student.getCity());
     }
 
-    default void typeCity(){
-
+    default void clickBtnSubmit(){
+        clickBase(btnSubmit);
+    }
+    default void typeCity(String city){
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("document.querySelector(\"div[class=' css-1wa3eu0-placeholder']\").style.display='none'");
+        WebElement element = driver.findElement(fieldCity);
+        //WebElement element = driver.findElement(By.xpath("//div[text()='Select City']"));
+        element.click();
+        element.sendKeys(city);
+        element.sendKeys(Keys.ENTER);
     }
     default void typeState(String state){
         WebElement element = driver.findElement(fieldState);
@@ -106,5 +118,13 @@ public interface HelperStudent extends HelperBase {
         } else {
             clickBase(By.xpath("//label[@for='gender-radio-3']"));
         }
+    }
+
+    default boolean isElementPresent_titleSubmitForm(){
+        return isElementPresent(titleSubmitForm);
+    }
+
+    default void clickBtnClose(){
+        clickBase(btnClose);
     }
 }

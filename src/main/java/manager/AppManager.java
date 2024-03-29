@@ -19,7 +19,7 @@ public interface AppManager {
       default void init(){
             driver.navigate().to("https://demoqa.com/");
             driver.manage().window().maximize();
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
       }
 //      default void initAddOptions(){
 //            driverAdd.navigate().to("https://demoqa.com/");

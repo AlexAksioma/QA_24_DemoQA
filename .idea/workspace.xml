@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5def242c-eb92-4be4-b196-6f70398bba2a" name="Changes" comment="addded metod fillstudentform, dto class">
+    <list default="true" id="5def242c-eb92-4be4-b196-6f70398bba2a" name="Changes" comment="addded methods type">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/AppManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/AppManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperStudent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/StudentFormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/StudentFormTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +56,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/QA_Auto_Projects/QA_24/QA_24_DemoQA&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/QA_Auto_Projects/QA_21_22/QA21-22_DemoQA"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Gradle.StudentFormTests.studentFormPositiveTest">
     <configuration name="CssLocators" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -238,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711101751566</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="addded methods type">
+      <option name="closed" value="true" />
+      <created>1711476028789</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711476028789</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -246,6 +252,7 @@
     <MESSAGE value="added webelement span" />
     <MESSAGE value="create appmanager" />
     <MESSAGE value="addded metod fillstudentform, dto class" />
-    <option name="LAST_COMMIT_MESSAGE" value="addded metod fillstudentform, dto class" />
+    <MESSAGE value="addded methods type" />
+    <option name="LAST_COMMIT_MESSAGE" value="addded methods type" />
   </component>
 </project>
